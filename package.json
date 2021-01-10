@@ -1,0 +1,32 @@
+{
+  "name": "reo",
+  "description": "senpai",
+  "version": "69.420.0",
+  "main": "src/reo",
+  "scripts": {
+    "start": "cd src; node reo.js",
+    "lint": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/voxel-dev/reo.git"
+  },
+  "author": "Voxel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/voxel-dev/reo/issues"
+  },
+  "homepage": "https://github.com/voxel-dev/reo",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "module-alias": "^2.2.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "standard": "^16.0.3"
+  },
+  "_moduleAliases": {
+    "@util": "src/util.js",
+    "@client": "src/client.js"
+  }
+}
